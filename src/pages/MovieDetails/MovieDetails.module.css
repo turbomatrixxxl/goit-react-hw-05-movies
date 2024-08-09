@@ -1,0 +1,71 @@
+.mainMovieContainer {
+  display: flex;
+  gap: 10px;
+  height: 350px;
+  padding: 10px 0;
+}
+
+.mainMovieLeftContainer {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  /* overflow: hidden;   */
+  max-width: 300px;
+}
+
+.backButton {
+  align-items: center;
+  cursor: pointer;
+  display: flex;
+  background: transparent;
+  border: none;
+}
+
+/* .movieImage{} */
+
+mainMovieRightContainer {
+  flex-grow: 1;
+}
+
+.movieTitle {
+  font-size: 24px;
+}
+
+.movieScore {
+  font-size: 16px;
+}
+
+.movieTitleOverwiew {
+  font-size: 20px;
+}
+
+.overwiewDescription {
+  font-size: 16px;
+}
+
+.movieTitleGenres {
+  font-size: 18px;
+}
+
+.genresList {
+  display: flex;
+  gap: 5px;
+  list-style: none;
+  padding-left: 0;
+  font-size: 16px;
+}
+
+.movieLinksContainer {
+  border-top: 2px solid gray;
+  border-bottom: 2px solid gray;
+  height: 150px;
+  width: 100%;
+}
+
+.linksTitle {
+  font-size: 16px;
+}
+
+.link {
+  font-size: 16px;
+}
